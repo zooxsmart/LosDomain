@@ -1,13 +1,13 @@
 {
-    "name": "los/losdomain",
+    "name": "zooxsmart/los-domain",
     "description": "Middleware for use php configuration based on domain or subdomain",
     "require": {
-        "php": "~7.4.0||~8.0.0||~8.1.0"
+        "php": "~8.0.0||~8.1.0||~8.2.0"
     },
     "require-dev": {
-        "laminas/laminas-coding-standard": "^2.0",
-        "php-coveralls/php-coveralls": "^2.5",
-        "phpunit/phpunit": "^9.3"
+        "laminas/laminas-coding-standard": "^2.5",
+        "php-coveralls/php-coveralls": "^2.6",
+        "phpunit/phpunit": "^10.4.2"
     },
     "suggest": {
         "los/loslog": "los/loslog for logging"
@@ -53,5 +53,5 @@
     },
     "type": "library",
     "license": "MIT",
-    "homepage": "http://github.com/Lansoweb/LosDomain"
+    "homepage": "https://github.com/zooxsmart/los-domain"
 }
